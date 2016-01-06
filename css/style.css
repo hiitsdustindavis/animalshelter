@@ -3,6 +3,15 @@ font-family: 'Quicksand';
 background-image: url("http://i.stack.imgur.com/MtKUX.jpg");
 }
 
+a {
+  text-decoration: none;
+
+}
+
+a:hover {
+color: orange;
+}
+
 .profile {
   float: left;
   width: 300px;
@@ -24,4 +33,14 @@ h1 {
   font-weight: bold;
   color: white;
   font-size: 3.5em;
+}
+
+.navbar {
+  float:left;
+  background-color: white;
+  width: 98%;
+  padding-left: 30px;
+  margin-left: 0px;
+  word-spacing: 60px;
+  text-align: center;
 }
