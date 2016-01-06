@@ -1,0 +1,27 @@
+body {
+font-family: 'Quicksand';
+background-image: url("http://i.stack.imgur.com/MtKUX.jpg");
+}
+
+.profile {
+  float: left;
+  width: 300px;
+  height: 300px;
+  background: white;
+  padding: 10px;
+  margin-left: 30px;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.profile img {
+  width: 200px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 3.5em;
+}
