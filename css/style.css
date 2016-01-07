@@ -44,3 +44,24 @@ h1 {
   word-spacing: 60px;
   text-align: center;
 }
+
+@media print {
+  *{
+    background: transparent !important;
+    color: #000 !important;
+  }
+  .navbar{
+    display: none !important;
+  }
+  h1, h2{
+    font-size: 18px !important;
+  }
+  .profile {
+    float: left !important;
+    width: 200px;
+    background: white;
+    padding: 0;
+    margin: 10px;
+    text-align: center;
+  }
+}
